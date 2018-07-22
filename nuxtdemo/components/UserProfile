@@ -1,0 +1,33 @@
+<template>
+	<el-dropdown @command="handleCommand">
+		<el-button type="text" class="dropdown-link">
+			<i class="fs fs-user-circle-o"></i>
+		</el-button>
+		<el-dropdown-menu slot="dropdown">
+			<el-dropdown-item command="modPassword">修改密码</el-dropdown-item>
+			<el-dropdown-item command="logout">退出登录</el-dropdown-item>
+		</el-dropdown-menu>
+	</el-dropdown>
+
+</template>
+<script type="text/javascript">
+	export default {
+		data(){
+			return {
+
+			}
+		},
+		methods:{
+
+		},
+		created(){
+
+		},
+		mount(){
+			
+		}
+	}
+</script>
+<style type="text/css">
+	
+</style>
