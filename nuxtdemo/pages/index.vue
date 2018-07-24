@@ -1,6 +1,5 @@
 <template>
-  
-    <div class="container"> 
+    
       <h1 class="title">
         nuxtdemo
       </h1>
@@ -9,7 +8,6 @@
         <span>可以参考github</span>
         <a href="https://github.com/nuxt/nuxt.js"  class="button--grey">GitHub</a>
       </div>
-    </div>
 </template>
 
 <script>

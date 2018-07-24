@@ -1,6 +1,6 @@
 template>
   <div class="default" :style="`background-image: url(${websiteInfo.bgUrl || ''})`">
-    <nuxt></nuxt>
+    <nuxt/>
   </div>
 </template>
 

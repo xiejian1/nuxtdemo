@@ -72,7 +72,7 @@
            	}
            }
 		},
-		created():{
+		created(){
            this.fetchWebsiteInfo()
 		},
 		mounted(){

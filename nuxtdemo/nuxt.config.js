@@ -33,7 +33,20 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
-  }
+    },
+    vendor: ['axios', 'element-ui','moment']
+  },
+  // plugin config
+  plugins: [
+    { src: '~plugins/nuxt-element-plugin.js' },
+    { src: '~plugins/nuxt-axios-plugin.js' },
+    { src: '~plugins/nuxt-moment-plugin.js' }
+  ],
+  css: [
+    /*'minireset.css/minireset.css',*/
+    // 'wangeditor/release/wangEditor.css',
+    'element-ui/lib/theme-chalk/index.css',
+    '~assets/style/common.css'
+  ],
 }
 
